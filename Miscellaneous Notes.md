@@ -8,7 +8,7 @@ Someone asked what I recommend as good projects to learn TypeScript.
 2. Try converting your old JavaScript projects to TypeScript!
 3. My personal favorite project to get experience with a language is Connect4 on a command line. It forces you to get good with arrays, loops, printing to the console, and general tricky function logic.
 
-# Steps to Onboard React
+## Steps to Onboard React
 
 I definitely recommend using a starter such as [create-react-app](https://create-react-app.dev/) or [create-next-app](https://nextjs.org/docs/api-reference/create-next-app).
 The three most important things are:
