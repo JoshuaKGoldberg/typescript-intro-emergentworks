@@ -5,6 +5,14 @@ This is the companion code repository for my Intro to TypeScript EmergentWorks w
 
 [See the slides here!](https://1drv.ms/p/s!AvUc1cvPrJnWvtJ5PdgSBQts-PgLSg?e=1tu2l2)
 
+> See https://github.com/JoshuaKGoldberg/typescript-intro-emergentworks-react/pull/1 for results and raw notes from the workshop! ⚒
+
+## Online Resources
+
+- **[typescriptlang.org](https://typescriptlang.org)** has complete docs on using the TypeScript language.
+- **[typescriptlang.org/play](https://typescriptlang.org/play)** has an online playground you can write TS code in.
+- **[code.visualstudio.com](https://code.visualstudio.com)** describes installing and using VS Code (optional).
+
 ## Setup
 
 Run these somewhere on your computer to download this repository and install its requirements:
