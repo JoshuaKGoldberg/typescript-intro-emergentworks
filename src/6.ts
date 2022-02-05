@@ -13,6 +13,8 @@ let spongebob: Person = {
 function logPerson(person: Person) {
   console.log(`${person.name} says:`);
   person.greet();
+
+  // person.cook();
 }
 
 // This is allowed because spongebob is known to be of type 'Person'.
@@ -28,12 +30,18 @@ const patrick = {
 // This is also allowed; 'patrick' structurally matches.
 logPerson(patrick);
 
-const plankton = {
-  announce: () => {
+const plankton: Person = {
+  // announce: () => {
+  //   console.error("I will destroy all of you!");
+  // },
+  greet: () => {
     console.error("I will destroy all of you!");
   },
+  // alskdfjalsdkfjlskj: 3,
   name: "Plankton",
 };
+
+plankton.greet();
 
 // This is not allowed because plankton doesn't structurally match.
 // Error: Argument of type '{ announce: () => void; name: string; }'

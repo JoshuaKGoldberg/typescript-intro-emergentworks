@@ -5,6 +5,10 @@
 // Particularly relevant compiler options are documented here for fun.
 {
   "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "preserve",
+
     // This specifies what built-in global variables are available:
     // * "dom" says we're in a browser so things like HTML elements exist
     // * "esnext" says we can use all the latest fancy JavaScript features ✨
@@ -16,7 +20,9 @@
     // We consider 'null' and 'undefined' to not be assignable to other types
     // Without this one, this would be fine: 'let name: string = undefined;'
     // Weird, right? You should basically always want this setting ;)
-    "strictNullChecks": true
+    "strictNullChecks": true,
+
+    "target": "es2020"
   },
   "include": ["src"]
 }

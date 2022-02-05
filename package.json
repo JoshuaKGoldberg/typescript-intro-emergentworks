@@ -15,5 +15,8 @@
   "scripts": {
     "compile": "tsc"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "dependencies": {
+    "@types/react": "^17.0.39"
+  }
 }
