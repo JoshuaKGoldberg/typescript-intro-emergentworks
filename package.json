@@ -1,0 +1,19 @@
+{
+  "author": "Josh Goldberg <me@joshuakgoldberg.com>",
+  "description": "Demo code for my Intro to TypeScript EmergentWorks workshop! ✨",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "keywords": [
+    "demo",
+    "emergentworks",
+    "intro",
+    "typescript"
+  ],
+  "license": "MIT",
+  "name": "typescript-intro-emergentworks",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "version": "0.1.0"
+}

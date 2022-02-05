@@ -1,0 +1,22 @@
+// A 'tsconfig.json' file specifies TypeScript settings for its folder.
+// Visit https://aka.ms/tsconfig.json to read more about them.
+//
+// You don't need to understand this file to learn TypeScript!
+// Particularly relevant compiler options are documented here for fun.
+{
+  "compilerOptions": {
+    // This specifies what built-in global variables are available:
+    // * "dom" says we're in a browser so things like HTML elements exist
+    // * "esnext" says we can use all the latest fancy JavaScript features ✨
+    "lib": ["dom", "esnext"],
+
+    // We use the nice import & export syntax (ES modules), not AMD or CommonJS.
+    "module": "esnext",
+
+    // We consider 'null' and 'undefined' to not be assignable to other types
+    // Without this one, this would be fine: 'let name: string = undefined;'
+    // Weird, right? You should basically always want this setting ;)
+    "strictNullChecks": true
+  },
+  "include": ["src"]
+}
