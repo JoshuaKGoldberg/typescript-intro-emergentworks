@@ -5,6 +5,8 @@ This is the companion code repository for my Intro to TypeScript EmergentWorks w
 
 [See the slides here!](https://1drv.ms/p/s!AvUc1cvPrJnWvtJ5PdgSBQts-PgLSg?e=1tu2l2)
 
+> See https://github.com/JoshuaKGoldberg/typescript-intro-emergentworks for a React+TypeScript app! ✨
+
 > See https://github.com/JoshuaKGoldberg/typescript-intro-emergentworks-react/pull/1 for results and raw notes from the workshop! ⚒
 
 ## Online Resources
